@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 60px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: Cambria;
+  font-weight: bold;
+  margin: 20px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  background: #a52b2b;
+  border: 1px solid #3289ac;
+  float: left;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 80px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 80px;
+}
+
+.square.winner {
+  background-color: #3289ac;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+  border: 1px solid;
+  font-size: 20px;
+  background: #3289ac;
+  text-align: center;
+}
+
+li {
+  background: #3289ac;
+}
+button.history-button {
+  background-color: #a52b2b;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
